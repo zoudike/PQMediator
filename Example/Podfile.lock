@@ -1,0 +1,16 @@
+PODS:
+  - PQMediator (0.1.0)
+
+DEPENDENCIES:
+  - PQMediator (from `../`)
+
+EXTERNAL SOURCES:
+  PQMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PQMediator: dc45d19898742af6ac8c676a19f7f8d7439ddeda
+
+PODFILE CHECKSUM: 651d948ba5cec1b2ddeb8bcc1405a408f7d19ae7
+
+COCOAPODS: 1.4.0

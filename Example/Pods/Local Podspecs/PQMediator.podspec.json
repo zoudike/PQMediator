@@ -1,0 +1,22 @@
+{
+  "name": "PQMediator",
+  "version": "0.1.0",
+  "summary": "A short description of PQMediator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BroadLink/PQMediator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BroadLink": "594821076@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/BroadLink/PQMediator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PQMediator/Classes/**/*"
+}

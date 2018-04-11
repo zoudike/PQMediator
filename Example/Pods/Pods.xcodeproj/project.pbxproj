@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DE33416D1EE9F7444861253A92C23A0 /* Pods-PQMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FDF7FD297551FF3DAFB948F402B972 /* Pods-PQMediator_Tests-dummy.m */; };
+		4433BF291C8DCA73A217B8A8AEE95313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5E4FB8AAB80B495C24C76984083470F1 /* Pods-PQMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA94B72B2F88BFDEA4F3CAD4D92557A9 /* Pods-PQMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B00027B5637357F1B26F2B8D81F9559 /* PQMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C0CCA0959362A7B30F645283DE4A1F /* PQMediator-dummy.m */; };
+		E62AE6BE7D241B54A5B444E66D6905FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E73DA30D7E95EDEE23DF295A3DD25E8E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F5114DF8211896F8B56B49C258DEDA /* ReplaceMe.m */; };
+		F72B77A8CC538BA276E80FF72E18754F /* PQMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B20FC16965FD2F4F21DCF4DF9E1386F8 /* PQMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73892A7AB46AA049D13FF2B2A5970B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E083D0D1C3371F7F132C48224C6D16B;
+			remoteInfo = PQMediator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08C0CCA0959362A7B30F645283DE4A1F /* PQMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PQMediator-dummy.m"; sourceTree = "<group>"; };
+		0D17BFD95943E509500F21C95A1964A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FD3E1621E891B06DDAA98EB66F3A87 /* PQMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PQMediator.framework; path = PQMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24E890FC5908B2446EE7F62B161F3CF2 /* Pods-PQMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PQMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		2D6CEAC4686D9B933CD5563C485348CF /* Pods-PQMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		374502A0AF7DEAB1A9D70CA3A3B79833 /* Pods-PQMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PQMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E648E72AE57EC28E88A0420F5C6AAE2 /* PQMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PQMediator.xcconfig; sourceTree = "<group>"; };
+		3F0A2144ADCF98820829E373E66AAB79 /* Pods-PQMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQMediator_Tests-resources.sh"; sourceTree = "<group>"; };
+		4235E1CCA85AD334FE780523CD6FF17D /* PQMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PQMediator.modulemap; sourceTree = "<group>"; };
+		48DE001C217FA1E9CD1546FD6A8B37C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62FDF7FD297551FF3DAFB948F402B972 /* Pods-PQMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PQMediator_Tests-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		895FE7524189E4EF3FBC778394E98A66 /* Pods-PQMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PQMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8AA563CEA0E3BE367985E3D3D6706F66 /* Pods_PQMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PQMediator_Tests.framework; path = "Pods-PQMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97001854535F9F1CEED44EB28B3D630B /* Pods-PQMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PQMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9A50F39979830873F8E8DCF5357D8779 /* Pods-PQMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PQMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9E5E850376A90267A6767DE2091CBAAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F5114DF8211896F8B56B49C258DEDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = PQMediator/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		B20FC16965FD2F4F21DCF4DF9E1386F8 /* PQMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQMediator-umbrella.h"; sourceTree = "<group>"; };
+		CBBB9C0545A0FB9648F06985FBBAE9F1 /* PQMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PQMediator-prefix.pch"; sourceTree = "<group>"; };
+		DA94B72B2F88BFDEA4F3CAD4D92557A9 /* Pods-PQMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PQMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EC7C4D379AC221AD5FAB9E9772376E34 /* PQMediator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PQMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9A6355E144C4D2AA730D330F4E3FFFD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACE4DEFF9AB89D1F8A56484D3CE8DEC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62AE6BE7D241B54A5B444E66D6905FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EAD0432E4EE143B4EBFC1E387A616C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4433BF291C8DCA73A217B8A8AEE95313 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8E03C56EEE44D715429DE833C293A3 /* PQMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A8F5114DF8211896F8B56B49C258DEDA /* ReplaceMe.m */,
+				82B4B58F7565A238BB31AAE741ACAA87 /* Pod */,
+				E758DC1A55E500FB23431CB20B485831 /* Support Files */,
+			);
+			name = PQMediator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D1B600C5A88D47FC0B82EA042ED0AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AA563CEA0E3BE367985E3D3D6706F66 /* Pods_PQMediator_Tests.framework */,
+				11FD3E1621E891B06DDAA98EB66F3A87 /* PQMediator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		382A28C1B091A43C340ADE5CF502AB82 /* Pods-PQMediator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9E5E850376A90267A6767DE2091CBAAF /* Info.plist */,
+				24E890FC5908B2446EE7F62B161F3CF2 /* Pods-PQMediator_Tests.modulemap */,
+				895FE7524189E4EF3FBC778394E98A66 /* Pods-PQMediator_Tests-acknowledgements.markdown */,
+				374502A0AF7DEAB1A9D70CA3A3B79833 /* Pods-PQMediator_Tests-acknowledgements.plist */,
+				62FDF7FD297551FF3DAFB948F402B972 /* Pods-PQMediator_Tests-dummy.m */,
+				9A50F39979830873F8E8DCF5357D8779 /* Pods-PQMediator_Tests-frameworks.sh */,
+				3F0A2144ADCF98820829E373E66AAB79 /* Pods-PQMediator_Tests-resources.sh */,
+				DA94B72B2F88BFDEA4F3CAD4D92557A9 /* Pods-PQMediator_Tests-umbrella.h */,
+				2D6CEAC4686D9B933CD5563C485348CF /* Pods-PQMediator_Tests.debug.xcconfig */,
+				97001854535F9F1CEED44EB28B3D630B /* Pods-PQMediator_Tests.release.xcconfig */,
+			);
+			name = "Pods-PQMediator_Tests";
+			path = "Target Support Files/Pods-PQMediator_Tests";
+			sourceTree = "<group>";
+		};
+		441A5E13C2073898B89EDDEE5233B079 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				382A28C1B091A43C340ADE5CF502AB82 /* Pods-PQMediator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8D219212EC3A13E11A27B70E5510EE9A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1D1B600C5A88D47FC0B82EA042ED0AE9 /* Products */,
+				441A5E13C2073898B89EDDEE5233B079 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82B4B58F7565A238BB31AAE741ACAA87 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9A6355E144C4D2AA730D330F4E3FFFD /* LICENSE */,
+				EC7C4D379AC221AD5FAB9E9772376E34 /* PQMediator.podspec */,
+				48DE001C217FA1E9CD1546FD6A8B37C0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8D219212EC3A13E11A27B70E5510EE9A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E8E03C56EEE44D715429DE833C293A3 /* PQMediator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E758DC1A55E500FB23431CB20B485831 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D17BFD95943E509500F21C95A1964A4 /* Info.plist */,
+				4235E1CCA85AD334FE780523CD6FF17D /* PQMediator.modulemap */,
+				3E648E72AE57EC28E88A0420F5C6AAE2 /* PQMediator.xcconfig */,
+				08C0CCA0959362A7B30F645283DE4A1F /* PQMediator-dummy.m */,
+				CBBB9C0545A0FB9648F06985FBBAE9F1 /* PQMediator-prefix.pch */,
+				B20FC16965FD2F4F21DCF4DF9E1386F8 /* PQMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PQMediator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AAC734443EC7409935A98AC1D3E79B5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4FB8AAB80B495C24C76984083470F1 /* Pods-PQMediator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE1EA3EE6451F6FF3A236D6FCA241E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72B77A8CC538BA276E80FF72E18754F /* PQMediator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E083D0D1C3371F7F132C48224C6D16B /* PQMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7D550D5D7DA5539B717E40E6A18196 /* Build configuration list for PBXNativeTarget "PQMediator" */;
+			buildPhases = (
+				062545B87FB2ACFD358DC854A189CA74 /* Sources */,
+				ACE4DEFF9AB89D1F8A56484D3CE8DEC1 /* Frameworks */,
+				A7AE1EA3EE6451F6FF3A236D6FCA241E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PQMediator;
+			productName = PQMediator;
+			productReference = 11FD3E1621E891B06DDAA98EB66F3A87 /* PQMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15219697906235C719B78C783F729C38 /* Pods-PQMediator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09755878D0AC159BEBA4C4D7934653A0 /* Build configuration list for PBXNativeTarget "Pods-PQMediator_Tests" */;
+			buildPhases = (
+				C78E35D52BDF332CDA7B4EE4B3E8D93D /* Sources */,
+				F6EAD0432E4EE143B4EBFC1E387A616C /* Frameworks */,
+				3AAC734443EC7409935A98AC1D3E79B5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AB7BB15ED86E8EFFA6719C6446B2B91 /* PBXTargetDependency */,
+			);
+			name = "Pods-PQMediator_Tests";
+			productName = "Pods-PQMediator_Tests";
+			productReference = 8AA563CEA0E3BE367985E3D3D6706F66 /* Pods_PQMediator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1D1B600C5A88D47FC0B82EA042ED0AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15219697906235C719B78C783F729C38 /* Pods-PQMediator_Tests */,
+				0E083D0D1C3371F7F132C48224C6D16B /* PQMediator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062545B87FB2ACFD358DC854A189CA74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B00027B5637357F1B26F2B8D81F9559 /* PQMediator-dummy.m in Sources */,
+				E73DA30D7E95EDEE23DF295A3DD25E8E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78E35D52BDF332CDA7B4EE4B3E8D93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE33416D1EE9F7444861253A92C23A0 /* Pods-PQMediator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AB7BB15ED86E8EFFA6719C6446B2B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PQMediator;
+			target = 0E083D0D1C3371F7F132C48224C6D16B /* PQMediator */;
+			targetProxy = 73892A7AB46AA049D13FF2B2A5970B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1746D0D7EE4F91F2AB9AF5134380E7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D6CEAC4686D9B933CD5563C485348CF /* Pods-PQMediator_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQMediator_Tests/Pods-PQMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PQMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2215D4C5A85CD0535E88A8E002B7123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E648E72AE57EC28E88A0420F5C6AAE2 /* PQMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PQMediator/PQMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PQMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PQMediator/PQMediator.modulemap";
+				PRODUCT_NAME = PQMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5AD94F924AC608452778E0F2A30F0717 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97001854535F9F1CEED44EB28B3D630B /* Pods-PQMediator_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PQMediator_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PQMediator_Tests/Pods-PQMediator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PQMediator_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90E4ECBC36E037701ACDBFB8B4BBB28B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E648E72AE57EC28E88A0420F5C6AAE2 /* PQMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PQMediator/PQMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PQMediator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PQMediator/PQMediator.modulemap";
+				PRODUCT_NAME = PQMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09755878D0AC159BEBA4C4D7934653A0 /* Build configuration list for PBXNativeTarget "Pods-PQMediator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1746D0D7EE4F91F2AB9AF5134380E7EB /* Debug */,
+				5AD94F924AC608452778E0F2A30F0717 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7D550D5D7DA5539B717E40E6A18196 /* Build configuration list for PBXNativeTarget "PQMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2215D4C5A85CD0535E88A8E002B7123C /* Debug */,
+				90E4ECBC36E037701ACDBFB8B4BBB28B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
