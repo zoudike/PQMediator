@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PQMediator_Tests' do
+  pod 'PQMediator', :path => '../'
+  
+  
+end
