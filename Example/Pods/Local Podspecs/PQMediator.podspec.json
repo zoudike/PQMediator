@@ -1,18 +1,18 @@
 {
   "name": "PQMediator",
   "version": "0.1.0",
-  "summary": "A short description of PQMediator.",
+  "summary": "router with mediator.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/BroadLink/PQMediator",
+  "homepage": "https://github.com/zoudike/PQMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "BroadLink": "594821076@qq.com"
+    "Wenpq": "850592231@qq.com"
   },
   "source": {
-    "git": "https://github.com/BroadLink/PQMediator.git",
+    "git": "https://github.com/zoudike/PQMediator.git",
     "tag": "0.1.0"
   },
   "platforms": {

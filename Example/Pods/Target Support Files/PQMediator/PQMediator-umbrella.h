@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "PQMediator.h"
 
 FOUNDATION_EXPORT double PQMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char PQMediatorVersionString[];
